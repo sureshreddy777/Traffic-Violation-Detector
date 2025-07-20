@@ -8,12 +8,10 @@ A secure and intelligent web-based system that allows authenticated users to upl
 
 - 🔐 **User Authentication** using AWS Cognito (Login & Registration)
 - 🌐 **Streamlit Web UI** with two pages: Login/Register and Image Upload
-- 🧠 **CNN-based Violation Detection** for images (Helmet, Triple Riding, No Seatbelt, etc.)
 - 🔍 **OCR-based License Plate Recognition** using EasyOCR / Tesseract
 - 🔗 **Owner Info Retrieval** using mock data or simulated VAHAN lookup
 - 📩 **Email Notification** to the violator using Gmail SMTP or AWS SNS
 - 🗃️ **Data Storage** in AWS DynamoDB (violations & user info)
-- 📊 **Redshift Logging** for long-term analytics and logs
 
 ---
 
@@ -22,7 +20,7 @@ A secure and intelligent web-based system that allows authenticated users to upl
 | Category              | Tools / Technologies Used                      |
 |-----------------------|------------------------------------------------|
 | Front-End             | Streamlit, HTML/CSS                           |
-| Back-End              | Python, OpenCV, EasyOCR/Tesseract, CNN        |
+| Back-End              | Python, OpenCV, EasyOCR/Tesseract             |
 | Authentication        | AWS Cognito                                   |
 | Cloud & Storage       | AWS S3 (image storage), DynamoDB, Redshift    |
 | Email Notification    | Gmail SMTP / AWS SNS                          |
